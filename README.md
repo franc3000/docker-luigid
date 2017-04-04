@@ -16,6 +16,22 @@ Usage
 =====
 
 ```
+docker build -t luigid .
 docker run -p 8082:8082 -d luigid
 ```
+
+To see what processes are running and listing the names:
+
+```
+docker ps
+docker ps -a # all local containers
+```
+
+Attach:
+
+```
+docker attach --sig-proxy=false [NAME]
+```
+
+To detach, press CTRL-C
 
