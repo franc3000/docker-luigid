@@ -1,4 +1,4 @@
-FROM python:2.7-slim
+FROM python:2.7
 MAINTAINER Franklin Sarkett <franklin.sarkett@gmail.com>
 
 ARG LUIGI_VERSION=2.7.5
